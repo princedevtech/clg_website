@@ -1,0 +1,124 @@
+*{margin:0px;padding:0px}
+body{font-family: 'Montserrat', sans-serif;/* font-family: 'Open Sans', sans-serif; */}
+
+		.bg{background-color: #071423;padding:22px}
+
+		.color{color:#ffa341;}
+
+ .color1{color:#ffa341; font-size: 40px; font-weight: 500}
+
+		.lkc,h3{display:inline}
+		.inter,span{padding-top:25px}
+       .navbar .navbar-nav li{margin-left:25px;}
+       .navbar .navbar-nav{padding-left:200px;}
+       nav .navbar-nav .nav-item .active{border-bottom: 2px solid #ffa341;}
+      nav .navbar-nav .nav-item :hover {border-bottom: 2px solid #ffa341;} 
+     
+      .first ul li a {border-right:1px solid black}
+       .first ul li{list-style:none}
+          .second ul li{list-style:none}
+
+       .mega-menu{width:1000px; padding:20px; margin-right: 200px;border:none}
+       .mega-menu a{text-decoration: none; color: cadetblue;border:none }
+       nav .navbar-nav .nav-item .mega-menu :hover{border:none; }
+
+       .mega-menu{
+         left: -380px;}
+          .hu{left:-520px}
+            .inetrpire{padding-bottom:80px}
+          
+          .card,.APPROVED{margin-left: 2%;box-shadow: 5px 2px 9px #e7e7e7}
+         .jumbotron{background-color: #f5f5f5}
+       .aboutss{font-size:14px}
+
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #ffa341;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #ffa341;
+}
+
+/* Set a style for the submit button */
+.btn {
+ border-radius: 30px;
+ border: 5px;
+ font-size: 50px;
+ background-color: lightgray;
+  color: black;
+  padding: 15px 20px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+   background-color: #ffa341;
+  opacity: 1;
+}
+
+	@media only screen and (min-device-width: 320px) and (max-device-width : 767px) {
+		    .logo{width:120px; height:auto}
+           .lkc,.color,.inter,span{font-size:10px;display:inline}
+          .lkc,h3{font-size:15px;display:inline}
+           .navbar .navbar-nav li{margin-left:0px !important;}
+       .navbar .navbar-nav{padding-left:0px !important;}
+          .inter{display:none}
+          .mega-menu{width:1000px; padding:20px; margin-right:0px;border:none}
+          .dropdown-menu {
+         left: 0px;}
+         .first ul li a {border:0px}
+     #mysider .carousel-indicators li{display:none}
+      #mysider .carousel-indicators .active{display:none}
+                  /*Meuscomplit*/
+           .inetrpire{padding-bottom:0px;padding-top:190px;font-size:10px}
+
+          .color1{color:#ffa341; font-size: 20px; font-weight: 200}
+
+@media only screen and ( min-device-width : 768px ) and (max-device-width : 1024px)  {
+       .logo {width:120px; height:auto}
+        .dropdown-menu{
+        left:0px !important}
+          .navbar .navbar-nav li{margin-left:0px !important;}
+       .navbar .navbar-nav{padding-left:0px !important;}
+        .first ul li a {border:0px}
+          .inter{display:none}
+
+         #mysider .carousel-indicators li {display:none}
+     #mysider .carousel-indicators .active{display:none}
+ .inetrpire{padding-bottom:0px;padding-top:190px;font-size:10px}
+}
+
+
+@media only screen  and (min-width : 1224px) {
+
+}
+
+@media(max-width:500px){
+	.mega-menu{width: 300px;}
+}
+@media only screen  and (min-width : 1824px) {
+/ Styles /
+}
